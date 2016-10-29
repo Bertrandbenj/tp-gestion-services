@@ -113,7 +113,7 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_6tzNUJW_EeaJndJbeEalTw" name="Intervention au Departement">
     <generalization xmi:id="_9z9bkJllEeahA67C0Vl-eA" general="_q9puUJW_EeaJndJbeEalTw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_-pltcJW_EeaJndJbeEalTw" name="Intervention Extérieure">
+  <packagedElement xmi:type="uml:Class" xmi:id="_-pltcJW_EeaJndJbeEalTw" name="Intervention Exterieure">
     <generalization xmi:id="_9TytwJllEeahA67C0Vl-eA" general="_q9puUJW_EeaJndJbeEalTw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_DFoa8JXAEeaJndJbeEalTw" name="CasSpecial">
