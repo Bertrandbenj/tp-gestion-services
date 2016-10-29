@@ -10,6 +10,10 @@
   <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
   <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
   <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+  <semanticResources>model_CasSpecial.uml</semanticResources>
+  <semanticResources>model_DemandeSpeciale.uml</semanticResources>
+  <semanticResources>model_DemandeInterventionExterieure.uml</semanticResources>
+  <semanticResources>model_TypeEnseignement.uml</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_7YVjQJVrEeazW_04_wbKtA">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Reused']"/>
   </ownedViews>
