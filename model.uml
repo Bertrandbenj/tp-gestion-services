@@ -66,12 +66,8 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4qXycJW-EeaJndJbeEalTw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4qXycZW-EeaJndJbeEalTw" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_8aTL4JljEeahA67C0Vl-eA" name="type" visibility="public" type="_xJJAsJljEeahA67C0Vl-eA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8aUaAJljEeahA67C0Vl-eA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8aUaAZljEeahA67C0Vl-eA" value="1"/>
-    </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_yVJVwJW-EeaJndJbeEalTw" memberEnd="_yVJVwZW-EeaJndJbeEalTw _yVJ80pW-EeaJndJbeEalTw" navigableOwnedEnd="_yVJ80pW-EeaJndJbeEalTw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_yVJVwJW-EeaJndJbeEalTw" name="" memberEnd="_yVJVwZW-EeaJndJbeEalTw _yVJ80pW-EeaJndJbeEalTw" navigableOwnedEnd="_yVJ80pW-EeaJndJbeEalTw">
     <ownedEnd xmi:id="_yVJVwZW-EeaJndJbeEalTw" name="modules" type="_exTYIJW9EeaJndJbeEalTw" association="_yVJVwJW-EeaJndJbeEalTw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yVJ80JW-EeaJndJbeEalTw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yVJ80ZW-EeaJndJbeEalTw" value="1"/>
@@ -268,6 +264,17 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_MSlrgJlqEeahA67C0Vl-eA" memberEnd="_MSlrgZlqEeahA67C0Vl-eA _MSmSkJlqEeahA67C0Vl-eA">
     <ownedEnd xmi:id="_MSlrgZlqEeahA67C0Vl-eA" type="_HvEdAJlqEeahA67C0Vl-eA" association="_MSlrgJlqEeahA67C0Vl-eA"/>
     <ownedEnd xmi:id="_MSmSkJlqEeahA67C0Vl-eA" type="_Ozab4JVsEeazW_04_wbKtA" association="_MSlrgJlqEeahA67C0Vl-eA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SR_tAJ37EeaNad9hUAn90g" memberEnd="_SStesJ37EeaNad9hUAn90g _SS66EJ37EeaNad9hUAn90g" navigableOwnedEnd="_SS66EJ37EeaNad9hUAn90g">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_SStesJ37EeaNad9hUAn90g" name="enseignements" type="_haHYAJW-EeaJndJbeEalTw" aggregation="composite" association="_SR_tAJ37EeaNad9hUAn90g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SS6TAJ37EeaNad9hUAn90g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SS6TAZ37EeaNad9hUAn90g" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_SS66EJ37EeaNad9hUAn90g" name="typeEnseignements" type="_xJJAsJljEeahA67C0Vl-eA" association="_SR_tAJ37EeaNad9hUAn90g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_STHuYJ37EeaNad9hUAn90g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_STHuYZ37EeaNad9hUAn90g" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <profileApplication xmi:id="_YTSW4JbxEeaVJtnna7ptvw">
     <eAnnotations xmi:id="_YTWoUJbxEeaVJtnna7ptvw" source="http://www.eclipse.org/uml2/2.0.0/UML">
