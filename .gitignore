@@ -25,3 +25,7 @@
 /build/
 /bin/
 /target/
+/.gitignore
+/.project
+/.classpath
+/.settings/
