@@ -116,7 +116,7 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_-pltcJW_EeaJndJbeEalTw" name="Intervention Extérieure">
     <generalization xmi:id="_9TytwJllEeahA67C0Vl-eA" general="_q9puUJW_EeaJndJbeEalTw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_DFoa8JXAEeaJndJbeEalTw" name="Cas Spécial">
+  <packagedElement xmi:type="uml:Class" xmi:id="_DFoa8JXAEeaJndJbeEalTw" name="CasSpecial">
     <generalization xmi:id="_8u_-oJllEeahA67C0Vl-eA" general="_q9puUJW_EeaJndJbeEalTw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_JdfU4JXAEeaJndJbeEalTw" name="Voeu">
@@ -127,7 +127,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cuQbcZlkEeahA67C0Vl-eA" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Mol-8JXAEeaJndJbeEalTw" name="Demande Intervention Extérieure">
+  <packagedElement xmi:type="uml:Class" xmi:id="_Mol-8JXAEeaJndJbeEalTw" name="DemandeInterventionExterieure">
     <generalization xmi:id="_YZ96QJXLEeaJndJbeEalTw" general="_dq6F4JW_EeaJndJbeEalTw"/>
     <ownedAttribute xmi:id="_coCz0JlmEeahA67C0Vl-eA" name="organisation" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -135,7 +135,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_coDa4ZlmEeahA67C0Vl-eA" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_RBUSsJXAEeaJndJbeEalTw" name="Demande Spéciale">
+  <packagedElement xmi:type="uml:Class" xmi:id="_RBUSsJXAEeaJndJbeEalTw" name="DemandeSpeciale">
     <generalization xmi:id="_ZDG94JXLEeaJndJbeEalTw" general="_dq6F4JW_EeaJndJbeEalTw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_VkTLoJbyEeaVJtnna7ptvw" name="Valider interventions, souhaits, conflits. "/>
@@ -171,7 +171,7 @@
     <ownedEnd xmi:id="_0Ec7QZbyEeaVJtnna7ptvw" type="_Ozab4JVsEeazW_04_wbKtA" association="_0Ec7QJbyEeaVJtnna7ptvw"/>
     <ownedEnd xmi:id="_0Ec7QpbyEeaVJtnna7ptvw" type="_rdqroJbyEeaVJtnna7ptvw" association="_0Ec7QJbyEeaVJtnna7ptvw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_xJJAsJljEeahA67C0Vl-eA" name="Type Enseignement">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_xJJAsJljEeahA67C0Vl-eA" name="TypeEnseignement">
     <ownedLiteral xmi:id="_3QINEJljEeahA67C0Vl-eA" name="CM"/>
     <ownedLiteral xmi:id="_4g7GkJljEeahA67C0Vl-eA" name="TD"/>
     <ownedLiteral xmi:id="_5bt64JljEeahA67C0Vl-eA" name="TP"/>
