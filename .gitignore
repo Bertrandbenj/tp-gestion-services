@@ -23,3 +23,5 @@
 
 *.toc
 /build/
+/bin/
+/target/
